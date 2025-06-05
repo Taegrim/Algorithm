@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1124 언더프라임", "112
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1427 소트인사이드", "1427 소트인사이드\1427 소트인사이드.vcxproj", "{B15C3145-3982-41BE-9455-03D76679B44F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2204 도비의 난독증 테스트", "2204 도비의 난독증 테스트\2204 도비의 난독증 테스트.vcxproj", "{564F18BC-B15B-4AE5-92BD-27FE66C83990}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{B15C3145-3982-41BE-9455-03D76679B44F}.Release|x64.Build.0 = Release|x64
 		{B15C3145-3982-41BE-9455-03D76679B44F}.Release|x86.ActiveCfg = Release|Win32
 		{B15C3145-3982-41BE-9455-03D76679B44F}.Release|x86.Build.0 = Release|Win32
+		{564F18BC-B15B-4AE5-92BD-27FE66C83990}.Debug|x64.ActiveCfg = Debug|x64
+		{564F18BC-B15B-4AE5-92BD-27FE66C83990}.Debug|x64.Build.0 = Debug|x64
+		{564F18BC-B15B-4AE5-92BD-27FE66C83990}.Debug|x86.ActiveCfg = Debug|Win32
+		{564F18BC-B15B-4AE5-92BD-27FE66C83990}.Debug|x86.Build.0 = Debug|Win32
+		{564F18BC-B15B-4AE5-92BD-27FE66C83990}.Release|x64.ActiveCfg = Release|x64
+		{564F18BC-B15B-4AE5-92BD-27FE66C83990}.Release|x64.Build.0 = Release|x64
+		{564F18BC-B15B-4AE5-92BD-27FE66C83990}.Release|x86.ActiveCfg = Release|Win32
+		{564F18BC-B15B-4AE5-92BD-27FE66C83990}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
