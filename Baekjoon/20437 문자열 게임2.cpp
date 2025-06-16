@@ -38,7 +38,7 @@ int main()
 	for (int i = 0; i < game_loop; ++i) {
 		cin >> s >> n;
 
-		for (int j = 0; j < s.size(); ++j) {		// 갯수, index 저장
+		for (int j = 0; j < s.size(); ++j) {		// 개수, index 저장
 			++m[s[j]].first;
 			m[s[j]].second.push_back(j);
 		}
