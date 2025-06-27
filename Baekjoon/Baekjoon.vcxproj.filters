@@ -84,5 +84,8 @@
     <ClCompile Include="5052 전화번호 목록.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1007 벡터 매칭.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
