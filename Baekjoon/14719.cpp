@@ -1,8 +1,19 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include "timer.h"
 
 using namespace std;
+Timer timer;
+
+void SumPuddle(const vector<int>& v, int left, int right, long long& result)
+{
+	int min_height = min(v[left], v[right]);
+
+	for (int j = left + 1; j < right; ++j) {
+		result += (min_height - v[j]);
+	}
+}
 
 int main()
 {
@@ -12,6 +23,8 @@ int main()
 	vector<int> v{};
 
 	cin >> h >> w;
+
+	timer.Start();
 
 	v.reserve(w);
 	for (int i = 0; i < w; ++i) {
@@ -41,8 +54,59 @@ int main()
 		}
 	}
 
+	timer.Stop();
 	cout << result << "\n";
 }
+
+// ---------------------
+// 기존 블록의 높이를 바꾸지 않고 left 보다 작은 블록 중 가장 높은 블록을 right로 기록
+// 같은 기둥을 못찾으면 left~right 사이의 빗물을 계산하고
+// right 부터 다시 검사하도록 함
+//  -> left 부터 다시 for 문 검사를 하는 것을 막음
+// 
+//int main()
+//{
+//	int w{}, h{};
+//	int left{}, right{}, min_height{}, max_height{ -1 };
+//	long long result{};
+//	vector<int> v{};
+//
+//	cin >> h >> w;
+//
+//	timer.Start();
+//
+//	v.reserve(w);
+//	for (int i = 0; i < w; ++i) {
+//		cin >> h;
+//		v.emplace_back(h);
+//	}
+//
+//	left = 0;
+//	for (int i = 1; i < w; ++i) {
+//		if (v[i] >= v[left]) {					// 현재 높이가 좌측 기둥과 같거나 높다면
+//			SumPuddle(v, left, i, result);
+//
+//			left = i;
+//			max_height = -1;				// 최고 높이 초기화
+//		}
+//		else {
+//			if (max_height < v[i]) {
+//				max_height = v[i];
+//				right = i;
+//			}
+//
+//			if (i == w - 1) {
+//				SumPuddle(v, left, right, result);
+//
+//				i = left = right;
+//				max_height = -1;
+//			}
+//		}
+//	}
+//
+//	timer.Stop();
+//	cout << result << "\n";
+//}
 
 // 
 // 맨 첫칸을 왼쪽 기둥으로 둠
