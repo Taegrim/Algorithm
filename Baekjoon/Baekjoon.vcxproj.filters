@@ -87,10 +87,13 @@
     <ClCompile Include="1007 벡터 매칭.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14719.cpp">
+    <ClCompile Include="14719 빗물.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="timer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20207 달력.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
