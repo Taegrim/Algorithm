@@ -96,6 +96,9 @@
     <ClCompile Include="20207 달력.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3190 뱀.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="timer.h">
