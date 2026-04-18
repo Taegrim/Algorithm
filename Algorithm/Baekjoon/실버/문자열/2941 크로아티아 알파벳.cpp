@@ -1,10 +1,10 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 #include <vector>
 
 using namespace std;
 
-vector<string> v{ "c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z=" };
+vector<string> v{ "c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z=" }; 
 
 int main()
 {

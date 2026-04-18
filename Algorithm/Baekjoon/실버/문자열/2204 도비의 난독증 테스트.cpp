@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -31,4 +31,4 @@ int main()
 		cout << v.begin()->second << "\n";
 		v.clear();
 	}
-}
+} 

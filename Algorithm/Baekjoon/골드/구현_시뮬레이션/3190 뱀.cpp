@@ -1,4 +1,4 @@
-#include <iostream>
+Ôªø#include <iostream>
 #include <vector>
 #include <array>
 //#include <Windows.h>
@@ -8,11 +8,11 @@ using namespace std;
 enum OBJECT { EMPTY, SNAKE, APPLE, WALL };
 
 array<array<int, 101>, 101> map{ EMPTY, };
-array<int, 4> dir_x{1, 0, -1, 0};	// °Ê °È °Á °Ë
+array<int, 4> dir_x{1, 0, -1, 0};	// ‚Üí ‚Üì ‚Üê ‚Üë
 array<int, 4> dir_y{0, 1, 0, -1};
 
 //void PrintMap(int map_size, int count)
-//{
+//{ 
 //	system("cls");
 //	for (int i = 1; i <= map_size; ++i) {
 //		for (int j = 1; j <= map_size; ++j) {
@@ -20,7 +20,7 @@ array<int, 4> dir_y{0, 1, 0, -1};
 //		}
 //		cout << endl;
 //	}
-//	cout << count << "√  ∞Ê∞˙" << endl;
+//	cout << count << "Ï¥à Í≤ΩÍ≥º" << endl;
 //	Sleep(500);
 //}
 
@@ -53,23 +53,23 @@ int main()
 		//PrintMap(size, count);
 		++count;
 
-		// πÊ«‚ ¿¸»Ø
+		// Î∞©Ìñ• Ï†ÑÌôò
 		if (curr < n) {
 			auto& [time, c] = directions[curr];
 			if (time == count - 1) {
 				++curr;
 
 				if (c == 'D') {
-					dir = (dir + 1) % 4;	// øÏ»∏¿¸
+					dir = (dir + 1) % 4;	// Ïö∞ÌöåÏ†Ñ
 				}
 				else {
-					dir = (dir + 3) % 4;	// ¡¬»∏¿¸
+					dir = (dir + 3) % 4;	// Ï¢åÌöåÏ†Ñ
 				}
 			}
 		}
 
-		// ∏”∏Æ ¿Ãµø
-		// ¿Ãµø«“ ∂ß ∏  πŸ±˘ or πÏ ∏ˆ≈Î¿Ã∏È break
+		// Î®∏Î¶¨ Ïù¥Îèô
+		// Ïù¥ÎèôÌï† Îïå Îßµ Î∞îÍπ• or Î±Ä Î™∏ÌÜµÏù¥Î©¥ break
 		head.second += dir_x[dir];
 		head.first += dir_y[dir];
 
@@ -85,7 +85,7 @@ int main()
 				snakes.emplace_back(make_pair(tail.first, tail.second));
 			}
 
-			// πÏ¿« ¿Ãµø, ≤ø∏Æ∫Œ≈Õ æ’¿ª µ˚∂Û∞°µµ∑œ «‘
+			// Î±ÄÏùò Ïù¥Îèô, Íº¨Î¶¨Î∂ÄÌÑ∞ ÏïûÏùÑ Îî∞ÎùºÍ∞ÄÎèÑÎ°ù Ìï®
 			for (int j = snakes.size() - 1; j > 0; --j) {
 				snakes[j].first = snakes[j - 1].first;
 				snakes[j].second = snakes[j - 1].second;
@@ -94,7 +94,7 @@ int main()
 			snakes[0].first = head.first;
 			snakes[0].second = head.second;
 
-			// tail ¡∂¡§, head SNAKE ∑Œ ƒ•«œ±‚
+			// tail Ï°∞Ï†ï, head SNAKE Î°ú Ïπ†ÌïòÍ∏∞
 			auto it = (snakes.end() - 1);
 			tail.first = it->first;
 			tail.second = it->second;

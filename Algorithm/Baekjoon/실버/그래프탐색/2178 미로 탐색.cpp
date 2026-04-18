@@ -12,7 +12,7 @@ int y_dir[4]{ 1, 0, -1, 0 };
 
 void BFS(int max_x, int max_y)
 {
-	q.push(make_pair(0, 0));
+	q.push(make_pair(0, 0)); 
 	visited[0][0] = true;
 	
 	int x{}, y{};

@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 
 using namespace std;
 
@@ -6,7 +6,7 @@ long long set_load(long long a, long long b)
 {
 	long long result = 1;
 
-	for (int i = 0; i < a; ++i) {
+	for (int i = 0; i < a; ++i) { 
 		result *= (b - i);
 		result /= (i + 1);
 	}

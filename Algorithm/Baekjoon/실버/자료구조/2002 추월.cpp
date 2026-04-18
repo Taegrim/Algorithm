@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <map>
 #include <vector>
 
@@ -19,10 +19,10 @@ int main()
 	for (int j = 0; j < num; ++j) {
 		cin >> car;
 		curr = car_list[car];
-		if (curr > j) {								// Ãß¿ù Çß´Ù¸é
+		if (curr > j) {								// ì¶”ì›” í–ˆë‹¤ë©´ 
 			++count;
 
-			for (auto& [name, order] : car_list) {	// ±âÁ¸¿¡ ¾Õ¿¡ ÀÖ´ø Â÷·®µé ¼ø¼­ + 1
+			for (auto& [name, order] : car_list) {	// ê¸°ì¡´ì— ì•ì— ìˆë˜ ì°¨ëŸ‰ë“¤ ìˆœì„œ + 1
 				if (order < curr) {
 					++order;
 				}
@@ -46,13 +46,13 @@ int main()
 //		input_list[car] = i;
 //	}
 //	
-//	for (int i = 0; i < num; ++i) {						// ³ª¿À´Â ¼ø¼­¸¸ ÀúÀå
+//	for (int i = 0; i < num; ++i) {						// ë‚˜ì˜¤ëŠ” ìˆœì„œë§Œ ì €ì¥
 //		cin >> car;
 //		output_list.push_back(input_list[car]);
 //	}
 //
-//	for (int i = 0; i < num - 1; ++i) {					// ³ª¿À´Â ¼ø¼­¸¦ °Ë»çÇßÀ» ¶§
-//		for (int j = i + 1; j < num; ++j) {				// µÚ¿¡ ÀÖ´Â °Í º¸´Ù ¼ıÀÚ°¡ ³ôÀ¸¸é Ãß¿ù
+//	for (int i = 0; i < num - 1; ++i) {					// ë‚˜ì˜¤ëŠ” ìˆœì„œë¥¼ ê²€ì‚¬í–ˆì„ ë•Œ
+//		for (int j = i + 1; j < num; ++j) {				// ë’¤ì— ìˆëŠ” ê²ƒ ë³´ë‹¤ ìˆ«ìê°€ ë†’ìœ¼ë©´ ì¶”ì›”
 //			if (output_list[i] > output_list[j]) {
 //				++count;
 //				break;

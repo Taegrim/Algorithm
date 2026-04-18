@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <algorithm>
 #include <string>
 
@@ -9,7 +9,7 @@ int main()
 {
 	cin >> s;
 
-	sort(s.begin(), s.end(), greater<>());
+	sort(s.begin(), s.end(), greater<>()); 
 
 	cout << s;
 }

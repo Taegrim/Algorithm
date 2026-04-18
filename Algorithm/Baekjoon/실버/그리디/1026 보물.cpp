@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <vector>
 #include <algorithm>
 
@@ -12,7 +12,7 @@ int get_min(vector<int>& a, const vector<int>& b)
 
 
 	int result{};
-	for (int i = 0; i < a.size(); ++i)
+	for (int i = 0; i < a.size(); ++i) 
 		result += a[i] * c[i];
 
 	return result;

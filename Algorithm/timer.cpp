@@ -1,4 +1,4 @@
-#include "timer.h"
+ï»¿#include "timer.h"
 
 void Timer::Start()
 {
@@ -7,8 +7,8 @@ void Timer::Start()
 
 void Timer::Stop()
 {
-	end = std::chrono::steady_clock::now();
+	end = std::chrono::steady_clock::now(); 
 	auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
 
-	std::cout << "°É¸° ½Ã°£ : " << elapsed << "ms" << std::endl;
+	std::cout << "ê±¸ë¦° ì‹œê°„ : " << elapsed << "ms" << std::endl;
 }

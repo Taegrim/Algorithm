@@ -1,11 +1,11 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <sstream>
 #include <stack>
 
 using namespace std;
 
-// --------------------  Stack »ç¿ë X ---------------
+// --------------------  Stack ì‚¬ìš© X --------------- 
 
 int main()
 {
@@ -35,7 +35,7 @@ int main()
 	}
 }
 
-//// --------------------  Stack »ç¿ë O ---------------
+//// --------------------  Stack ì‚¬ìš© O ---------------
 //
 //int main()
 //{
@@ -51,7 +51,7 @@ int main()
 //		line += ' ';
 //
 //		for (const char c : line) {
-//			if (c == ' ') {				// ´Ü¾îÀÇ ³¡À» ¸¸³ª¸é
+//			if (c == ' ') {				// ë‹¨ì–´ì˜ ëì„ ë§Œë‚˜ë©´
 //				while (!words.empty()) {
 //					cout << words.top();
 //					words.pop();

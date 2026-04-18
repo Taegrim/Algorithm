@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <algorithm>
 #include <string>
 #include <vector>
@@ -12,7 +12,7 @@ map<string, int> names;
 int main()
 {
 	int n{}, m{};
-	string s{};
+	string s{}; 
 
 	cin >> n >> m;
 

@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <cmath>
 #include <vector>
 
@@ -24,9 +24,9 @@ int main()
 			points[temp].first * points[i].second;
 	}
 	result = fabs(result / 2.0);
-	// (x1y2 + x2y3 + x3y1 - x2y1 - x3y2 - x1y3) / 2
+	// (x1y2 + x2y3 + x3y1 - x2y1 - x3y2 - x1y3) / 2 
 
-	// µÑÂ° ÀÚ¸®¿¡¼­ ¹İ¿Ã¸²
+	// ë‘˜ì§¸ ìë¦¬ì—ì„œ ë°˜ì˜¬ë¦¼
 	result = round(result * 10.0) / 10.0;
 
 	cout << fixed;

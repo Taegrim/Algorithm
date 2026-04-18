@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 
 using namespace std;
@@ -20,7 +20,7 @@ int main()
 	}
 
 	if (count % 2 == 0)
-		count /= 2;
+		count /= 2; 
 	else
 		count = count / 2 + 1;
 

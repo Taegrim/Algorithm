@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <cmath>
 
 using namespace std;
@@ -19,28 +19,28 @@ bool get_zero(double a, double b)
 
 int get_crosspoint(Point& a, Point& b, int& r1, int& r2)
 {
-	// ¿øÀÌ °°À½ = ¹«ÇÑ´ë
+	// ì›ì´ ê°™ìŒ = ë¬´í•œëŒ€ 
 	
 	if (a.x == b.x && a.y == b.y && r1 == r2)
 		return -1;
 
-	// ¿øÀÌ ´Ù¸§ - ±³Á¡ ±¸ÇÏ±â
+	// ì›ì´ ë‹¤ë¦„ - êµì  êµ¬í•˜ê¸°
 	else {
 		int diffx = b.x - a.x;
 		int diffy = b.y - a.y;
 		double d = sqrt(diffx * diffx + diffy * diffy);
 		double sum_radius = (double)r1 + (double)r2;
 
-		// ¿øÀÌ ¸¸³ªÁö ¾ÊÀ½
+		// ì›ì´ ë§Œë‚˜ì§€ ì•ŠìŒ
 		if (d > sum_radius)
 			return 0;
-		// ¿øÀÌ ÇÑÁ¡¿¡¼­ ¸¸³²
+		// ì›ì´ í•œì ì—ì„œ ë§Œë‚¨
 		if(get_zero(d, sum_radius) || get_zero(d, fabs(r2-r1)))
 			return 1;
-		// ¿øÀÌ µÎ Á¡¿¡¼­ ¸¸³²
+		// ì›ì´ ë‘ ì ì—ì„œ ë§Œë‚¨
 		if (sum_radius > d && d > fabs(r2-r1))
 			return 2;
-		// ¿øÀÌ ³»ºÎ¿¡¼­ ¸¸³ªÁö ¾ÊÀ½
+		// ì›ì´ ë‚´ë¶€ì—ì„œ ë§Œë‚˜ì§€ ì•ŠìŒ
 		if (d < fabs(r2 - r1))
 			return 0;
 
@@ -66,4 +66,4 @@ int main()
 
 }
 
-// ¿øÀÇ ±³Á¡ ±¸ÇÏ´Â ¹®Á¦
+// ì›ì˜ êµì  êµ¬í•˜ëŠ” ë¬¸ì œ

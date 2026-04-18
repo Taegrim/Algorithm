@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <vector>
 #include <queue>
 #include <algorithm>
@@ -19,7 +19,7 @@ void bfs(vector<vector<int>>& map, vector<int>& houses, int row, int col)
 	while (!q.empty()) {
 		int r = q.front().first;
 		int c = q.front().second;
-		q.pop();
+		q.pop(); 
 
 		for (int i = 0; i < 4; ++i) {
 			int nr = r + dy[i];
@@ -48,7 +48,7 @@ int main()
 
 	vector<vector<int>> map(size, vector<int>(size, 0));
 
-	// ÀÔ·ÂÀÌ ¿¬¼ÓµÈ ¼ıÀÚ¶ó ¹®ÀÚ¿­·Î ¹Ş¾Æ¼­ ÂÉ°³±â
+	// ì…ë ¥ì´ ì—°ì†ëœ ìˆ«ìë¼ ë¬¸ìì—´ë¡œ ë°›ì•„ì„œ ìª¼ê°œê¸°
 	for (int i = 0; i < size; ++i) {
 		string s{};
 		cin >> s;
@@ -59,7 +59,7 @@ int main()
 	}
 
 
-	// ´ÜÁö¼ö, ´ÜÁö ¿À¸§Â÷¼ø
+	// ë‹¨ì§€ìˆ˜, ë‹¨ì§€ ì˜¤ë¦„ì°¨ìˆœ
 	int count{};
 	vector<int> houses;
 
