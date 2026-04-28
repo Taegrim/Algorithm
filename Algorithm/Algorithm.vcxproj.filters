@@ -149,5 +149,8 @@
     <ClCompile Include="Programmers\소수 찾기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\쿼드압축 후 개수 세기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
