@@ -158,5 +158,8 @@
     <ClCompile Include="Programmers\큰 수 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\삼각 달팽이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
