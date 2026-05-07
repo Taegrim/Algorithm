@@ -26,7 +26,7 @@ int solution(vector<int> queue1, vector<int> queue2) {
 
     // 무한으로 돌지 않게 loop 최대횟수 걸어두기
     int answer = 0;
-    int limit = queue1.size() * 3;
+    int limit = (queue1.size() + queue2.size()) * 2;
 
     // 큰쪽에서 작은쪽으로 넘기기
     // 넘기려할 때 비어있다면 -1
