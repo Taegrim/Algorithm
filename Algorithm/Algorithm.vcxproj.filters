@@ -176,5 +176,8 @@
     <ClCompile Include="Programmers\전력망을 둘로 나누기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\배달.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
