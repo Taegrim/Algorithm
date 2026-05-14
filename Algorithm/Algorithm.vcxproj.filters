@@ -188,5 +188,8 @@
     <ClCompile Include="Programmers\마법의 엘리베이터.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\거리두기 확인하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
