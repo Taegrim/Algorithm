@@ -191,5 +191,8 @@
     <ClCompile Include="Programmers\거리두기 확인하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\숫자 카드 나누기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
