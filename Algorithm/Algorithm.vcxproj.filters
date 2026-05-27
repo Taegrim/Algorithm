@@ -212,5 +212,8 @@
     <ClCompile Include="Programmers\재귀\혼자 놀기의 달인.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\그리디\광물 캐기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
