@@ -221,5 +221,11 @@
     <ClCompile Include="Programmers\그리디\디펜스 게임.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\구현\우박수열 정적분.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\수학\두 원 사이의 정수 쌍.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
