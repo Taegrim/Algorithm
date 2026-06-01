@@ -236,5 +236,11 @@
     <ClCompile Include="Programmers\그리디\조이스틱.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\구현\혼자서 하는 틱택토.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\재귀\이모티콘 할인행사.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
