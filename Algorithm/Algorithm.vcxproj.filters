@@ -251,5 +251,8 @@
     <ClCompile Include="Programmers\수학\교점에 별 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\그리디\택배 배달과 수거하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
