@@ -245,7 +245,10 @@
     <ClCompile Include="Programmers\그리디\요격 시스템.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="양궁대회.cpp">
+    <ClCompile Include="Programmers\재귀\양궁대회.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\수학\교점에 별 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
