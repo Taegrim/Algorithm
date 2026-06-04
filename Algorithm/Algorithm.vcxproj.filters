@@ -260,5 +260,8 @@
     <ClCompile Include="Programmers\수학\당구 연습.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\탐색\빛의 경로 사이클.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
