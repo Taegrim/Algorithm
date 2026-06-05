@@ -281,5 +281,8 @@
     <ClCompile Include="Programmers\탐색\단어 변환.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\탐색\양과 늑대.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
