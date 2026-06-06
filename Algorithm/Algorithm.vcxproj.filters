@@ -284,5 +284,11 @@
     <ClCompile Include="Programmers\탐색\양과 늑대.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\자료구조\베스트앨범.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\탐색\가장 먼 노드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
