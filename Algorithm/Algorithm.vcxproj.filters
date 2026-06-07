@@ -290,5 +290,8 @@
     <ClCompile Include="Programmers\탐색\가장 먼 노드.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\그리디\섬 연결하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
