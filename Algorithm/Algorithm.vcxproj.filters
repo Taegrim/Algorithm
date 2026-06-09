@@ -302,5 +302,8 @@
     <ClCompile Include="Programmers\수학\입국심사.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\구현\가장 긴 팰린드롬.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
