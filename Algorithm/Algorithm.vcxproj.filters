@@ -305,5 +305,11 @@
     <ClCompile Include="Programmers\구현\가장 긴 팰린드롬.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\DP\연속 펄스 부분 수열의 합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\그리디\풍선 터트리기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
