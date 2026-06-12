@@ -326,5 +326,8 @@
     <ClCompile Include="Baekjoon\실버\그래프탐색\2644 촌수계산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\구현\다단계 칫솔 판매.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
