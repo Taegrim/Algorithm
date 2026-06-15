@@ -332,5 +332,8 @@
     <ClCompile Include="Programmers\탐색\순위.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\탐색\부대복귀.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
