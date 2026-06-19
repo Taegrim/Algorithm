@@ -376,7 +376,7 @@
     <ClCompile Include="Baekjoon\실버\그래프탐색\1743 음식물 피하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\2638 치즈.cpp">
+    <ClCompile Include="Baekjoon\골드\그래프_트리\2638 치즈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="timer.cpp">
@@ -491,6 +491,7 @@
     <ClCompile Include="Programmers\그리디\미로 탈출 명령어.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\재귀\표현 가능한 이진트리.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
