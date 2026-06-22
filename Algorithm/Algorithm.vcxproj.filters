@@ -356,5 +356,8 @@
     <ClCompile Include="Programmers\재귀\표현 가능한 이진트리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\그리디\스타 수열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
