@@ -362,5 +362,8 @@
     <ClCompile Include="Programmers\DP\Ｎ으로 표현.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\탐색\등산코스 정하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
