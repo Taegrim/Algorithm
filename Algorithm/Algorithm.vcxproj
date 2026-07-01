@@ -127,6 +127,9 @@
     <ClInclude Include="timer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Programmers\그리디\2차원 동전 뒤집기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Baekjoon\골드\그래프_트리\14497 주난의 난.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

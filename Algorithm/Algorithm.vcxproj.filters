@@ -386,5 +386,8 @@
     <ClCompile Include="Programmers\DP\카운트다운.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\그리디\2차원 동전 뒤집기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
