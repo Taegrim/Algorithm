@@ -401,7 +401,7 @@
     <ClCompile Include="Programmers\DP\등대.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="숫자 타자 대회.cpp">
+    <ClCompile Include="Programmers\DP\숫자 타자 대회.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Baekjoon\비트마스킹\1987 알파벳.cpp">

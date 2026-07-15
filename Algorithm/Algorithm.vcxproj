@@ -560,7 +560,7 @@
     <ClCompile Include="Programmers\DP\등대.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="숫자 타자 대회.cpp">
+    <ClCompile Include="Programmers\DP\숫자 타자 대회.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Baekjoon\백트래킹\15686 치킨 배달.cpp">
