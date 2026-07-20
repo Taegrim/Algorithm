@@ -440,5 +440,8 @@
     <ClCompile Include="Baekjoon\그리디\13305 주유소.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\탐색\상담원 인원.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
