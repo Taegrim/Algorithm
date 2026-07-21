@@ -443,5 +443,8 @@
     <ClCompile Include="Programmers\탐색\상담원 인원.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\자료구조\1874 스택수열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
