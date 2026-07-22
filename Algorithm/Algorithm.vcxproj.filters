@@ -20,94 +20,94 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Baekjoon\골드\구현_시뮬레이션\3190 뱀.cpp">
+    <ClCompile Include="Baekjoon\구현_시뮬레이션\3190 뱀.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\골드\구현_시뮬레이션\14719 빗물.cpp">
+    <ClCompile Include="Baekjoon\구현_시뮬레이션\14719 빗물.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\골드\구현_시뮬레이션\20207 달력.cpp">
+    <ClCompile Include="Baekjoon\구현_시뮬레이션\20207 달력.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\골드\그래프_트리\1068 트리.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\1068 트리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\골드\수학_기하\1007 벡터 매칭.cpp">
+    <ClCompile Include="Baekjoon\완전탐색_백트래킹\1007 벡터 매칭.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\골드\수학_기하\1011 Fly me to the Alpha Centauri.cpp">
+    <ClCompile Include="Baekjoon\수학_조합론\1011 Fly me to the Alpha Centauri.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\골드\수학_기하\1027 고층 건물.cpp">
+    <ClCompile Include="Baekjoon\완전탐색_백트래킹\1027 고층 건물.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\골드\수학_기하\2166 다각형의 면적.cpp">
+    <ClCompile Include="Baekjoon\기하\2166 다각형의 면적.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\골드\자료구조_문자열\2800 괄호 제거.cpp">
+    <ClCompile Include="Baekjoon\완전탐색_백트래킹\2800 괄호 제거.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\골드\자료구조_문자열\5052 전화번호 목록.cpp">
+    <ClCompile Include="Baekjoon\자료구조\5052 전화번호 목록.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\골드\자료구조_문자열\9935 문자열 폭발.cpp">
+    <ClCompile Include="Baekjoon\자료구조\9935 문자열 폭발.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\골드\자료구조_문자열\20437 문자열 게임2.cpp">
+    <ClCompile Include="Baekjoon\문자열\20437 문자열 게임2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\브론즈\문자열\9093 단어 뒤집기.cpp">
+    <ClCompile Include="Baekjoon\문자열\9093 단어 뒤집기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\1012 유기농배추.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\1012 유기농배추.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\1189 컴백홈.cpp">
+    <ClCompile Include="Baekjoon\완전탐색_백트래킹\1189 컴백홈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\2178 미로 탐색.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\2178 미로 탐색.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\2667 단지번호붙이기.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\2667 단지번호붙이기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\4963 섬의개수.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\4963 섬의개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그리디\1026 보물.cpp">
+    <ClCompile Include="Baekjoon\그리디\1026 보물.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그리디\1439 뒤집기.cpp">
+    <ClCompile Include="Baekjoon\그리디\1439 뒤집기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그리디\1541 잃어버린 괄호.cpp">
+    <ClCompile Include="Baekjoon\그리디\1541 잃어버린 괄호.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그리디\10610 30.cpp">
+    <ClCompile Include="Baekjoon\그리디\10610 30.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\기하_수학\1002 터렛.cpp">
+    <ClCompile Include="Baekjoon\기하\1002 터렛.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\기하_수학\1010 다리놓기.cpp">
+    <ClCompile Include="Baekjoon\수학_조합론\1010 다리놓기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\기하_수학\1124 언더프라임.cpp">
+    <ClCompile Include="Baekjoon\수학_조합론\1124 언더프라임.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\문자열\1427 소트인사이드.cpp">
+    <ClCompile Include="Baekjoon\문자열\1427 소트인사이드.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\문자열\2204 도비의 난독증 테스트.cpp">
+    <ClCompile Include="Baekjoon\문자열\2204 도비의 난독증 테스트.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\문자열\2941 크로아티아 알파벳.cpp">
+    <ClCompile Include="Baekjoon\문자열\2941 크로아티아 알파벳.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\자료구조\1764 듣보잡.cpp">
+    <ClCompile Include="Baekjoon\자료구조\1764 듣보잡.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\자료구조\2002 추월.cpp">
+    <ClCompile Include="Baekjoon\자료구조\2002 추월.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="timer.cpp">
@@ -263,13 +263,13 @@
     <ClCompile Include="Programmers\탐색\빛의 경로 사이클.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\자료구조\9012 괄호.cpp">
+    <ClCompile Include="Baekjoon\자료구조\9012 괄호.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\구현\2852 NBA 농구.cpp">
+    <ClCompile Include="Baekjoon\구현_시뮬레이션\2852 NBA 농구.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\자료구조\4949 균형잡힌 세상.cpp">
+    <ClCompile Include="Baekjoon\자료구조\4949 균형잡힌 세상.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Programmers\자료구조\이중우선순위큐.cpp">
@@ -314,16 +314,16 @@
     <ClCompile Include="Programmers\재귀\불량 사용자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\2606 바이러스.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\2606 바이러스.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\1325 효율적인 해킹.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\1325 효율적인 해킹.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\11724 연결 요소의 개수.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\11724 연결 요소의 개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\2644 촌수계산.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\2644 촌수계산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Programmers\구현\다단계 칫솔 판매.cpp">
@@ -344,13 +344,13 @@
     <ClCompile Include="Programmers\그리디\미로 탈출 명령어.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\1743 음식물 피하기.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\1743 음식물 피하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\골드\그래프_트리\2638 치즈.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\2638 치즈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\2468 안전영역.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\2468 안전영역.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Programmers\재귀\표현 가능한 이진트리.cpp">
@@ -368,16 +368,16 @@
     <ClCompile Include="Programmers\탐색\모두 0으로 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\1926 그림.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\1926 그림.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\2589 보물섬.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\2589 보물섬.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\실버\그래프탐색\1697 숨바꼭질.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\1697 숨바꼭질.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\골드\그래프_트리\14497 주난의 난.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\14497 주난의 난.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Programmers\구현\표 병합.cpp">
@@ -410,22 +410,22 @@
     <ClCompile Include="Baekjoon\비트마스킹\1094 막대기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\백트래킹\15650 N과 M.cpp">
+    <ClCompile Include="Baekjoon\완전탐색_백트래킹\15650 N과 M.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\백트래킹\15654 N과 M.cpp">
+    <ClCompile Include="Baekjoon\완전탐색_백트래킹\15654 N과 M.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\백트래킹\6603 로또.cpp">
+    <ClCompile Include="Baekjoon\완전탐색_백트래킹\6603 로또.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\백트래킹\1987 알파벳.cpp">
+    <ClCompile Include="Baekjoon\완전탐색_백트래킹\1987 알파벳.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\백트래킹\15686 치킨 배달.cpp">
+    <ClCompile Include="Baekjoon\완전탐색_백트래킹\15686 치킨 배달.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\백트래킹\14502 연구소.cpp">
+    <ClCompile Include="Baekjoon\완전탐색_백트래킹\14502 연구소.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Baekjoon\그리디\2217 로프.cpp">
