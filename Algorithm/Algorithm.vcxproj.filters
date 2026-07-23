@@ -35,7 +35,7 @@
     <ClCompile Include="Baekjoon\완전탐색_백트래킹\1007 벡터 매칭.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\수학_조합론\1011 Fly me to the Alpha Centauri.cpp">
+    <ClCompile Include="Baekjoon\수학\1011 Fly me to the Alpha Centauri.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Baekjoon\완전탐색_백트래킹\1027 고층 건물.cpp">
@@ -89,10 +89,10 @@
     <ClCompile Include="Baekjoon\기하\1002 터렛.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\수학_조합론\1010 다리놓기.cpp">
+    <ClCompile Include="Baekjoon\수학\1010 다리놓기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\수학_조합론\1124 언더프라임.cpp">
+    <ClCompile Include="Baekjoon\수학\1124 언더프라임.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Baekjoon\문자열\1427 소트인사이드.cpp">
@@ -447,6 +447,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Baekjoon\자료구조\1021 회전하는 큐.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\자료구조\11866 요세푸스 문제 0.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\자료구조\11279 최대 힙.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\구현_시뮬레이션\1436 영화감독 숌.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
