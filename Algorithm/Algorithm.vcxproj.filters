@@ -458,7 +458,13 @@
     <ClCompile Include="Baekjoon\구현_시뮬레이션\1436 영화감독 숌.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2798 블랙잭.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\2798 블랙잭.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\브루트포스\2231 분해합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\문자열\1541 잃어버린 괄호.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
