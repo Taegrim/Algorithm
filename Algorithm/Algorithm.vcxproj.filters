@@ -467,5 +467,8 @@
     <ClCompile Include="Baekjoon\문자열\1541 잃어버린 괄호.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\그리디\11047 동전.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

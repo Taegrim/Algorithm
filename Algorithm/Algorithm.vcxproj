@@ -127,6 +127,9 @@
     <ClInclude Include="timer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Baekjoon\그리디\11047 동전.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Baekjoon\문자열\1541 잃어버린 괄호.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
