@@ -476,5 +476,8 @@
     <ClCompile Include="Baekjoon\DP\2579 계단오르기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\DP\9184 함수 실행.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
