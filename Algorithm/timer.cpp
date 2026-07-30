@@ -1,5 +1,7 @@
 ﻿#include "timer.h"
 
+#include <iostream>
+
 void Timer::Start()
 {
 	start = std::chrono::steady_clock::now();
