@@ -145,7 +145,10 @@
     <ClCompile Include="Baekjoon\그리디\11047 동전.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\꽃길.cpp">
+    <ClCompile Include="Algospot\록 페스티벌.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\완전탐색_백트래킹\14620 꽃길.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Baekjoon\문자열\1541 잃어버린 괄호.cpp">
@@ -160,10 +163,10 @@
     <ClCompile Include="Baekjoon\그리디\1202 보석 도둑.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\수학숙제.cpp">
+    <ClCompile Include="Baekjoon\문자열\2870 수학숙제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\순회강연.cpp">
+    <ClCompile Include="Baekjoon\그리디\2109 순회강연.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Baekjoon\완전탐색_백트래킹\14502 연구소.cpp">
@@ -184,10 +187,10 @@
     <ClCompile Include="Baekjoon\비트마스킹\1987 알파벳.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\용돈 관리.cpp">
+    <ClCompile Include="Baekjoon\수학\6236 용돈 관리.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baekjoon\인구이동.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\16234 인구이동.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Programmers\그리디\2차원 동전 뒤집기.cpp">

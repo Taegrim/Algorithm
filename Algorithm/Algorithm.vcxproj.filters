@@ -494,19 +494,22 @@
     <ClCompile Include="Baekjoon\DP\2294 동전2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\꽃길.cpp">
+    <ClCompile Include="Baekjoon\완전탐색_백트래킹\14620 꽃길.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\수학숙제.cpp">
+    <ClCompile Include="Baekjoon\문자열\2870 수학숙제.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\순회강연.cpp">
+    <ClCompile Include="Baekjoon\그리디\2109 순회강연.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\용돈 관리.cpp">
+    <ClCompile Include="Baekjoon\수학\6236 용돈 관리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Baekjoon\인구이동.cpp">
+    <ClCompile Include="Baekjoon\그래프_탐색\16234 인구이동.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\록 페스티벌.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
