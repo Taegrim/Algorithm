@@ -512,7 +512,10 @@
     <ClCompile Include="Algospot\록 페스티벌.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="블록.cpp">
+    <ClCompile Include="Algospot\게임판 덮기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\시계 맞추기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
