@@ -527,5 +527,11 @@
     <ClCompile Include="Algospot\분할정복\팬미팅.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode\DP\동전교환.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\DP\12865 평범한 배낭.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
