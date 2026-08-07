@@ -512,16 +512,19 @@
     <ClCompile Include="Algospot\록 페스티벌.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Algospot\게임판 덮기.cpp">
+    <ClCompile Include="Algospot\완전탐색\게임판 덮기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Algospot\시계 맞추기.cpp">
+    <ClCompile Include="Algospot\완전탐색\시계 맞추기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Algospot\쿼드트리 뒤집기.cpp">
+    <ClCompile Include="Algospot\분할정복\쿼드트리 뒤집기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Algospot\울타리 잘라내기.cpp">
+    <ClCompile Include="Algospot\분할정복\울타리 잘라내기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\분할정복\팬미팅.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
