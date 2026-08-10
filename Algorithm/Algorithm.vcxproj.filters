@@ -563,5 +563,14 @@
     <ClCompile Include="Algospot\DP\달팽이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Algospot\DP\비대칭 타일링.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\DP\폴리오미노.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\DP\두니발 박사의 탈옥.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
