@@ -620,5 +620,11 @@
     <ClCompile Include="Algospot\이분탐색\DARPA.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Algospot\이분탐색\남극 기지.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\이분탐색\캐나다 여행.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
