@@ -632,5 +632,11 @@
     <ClCompile Include="Algospot\이분탐색\승률 올리기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Algospot\정수론\정수론 함수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Algospot\정수론\비밀번호 486.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
