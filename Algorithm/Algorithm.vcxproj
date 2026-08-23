@@ -175,7 +175,10 @@
     <ClCompile Include="Algospot\이분탐색\캐나다 여행.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Algospot\정수론\비밀번호 486.cpp" />
+    <ClCompile Include="Algospot\정수론\마법의 약.cpp" />
+    <ClCompile Include="Algospot\정수론\비밀번호 486.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Algospot\정수론\정수론 함수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

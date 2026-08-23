@@ -638,5 +638,8 @@
     <ClCompile Include="Algospot\정수론\비밀번호 486.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Algospot\정수론\마법의 약.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
