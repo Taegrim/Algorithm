@@ -127,6 +127,7 @@
     <ClInclude Include="timer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Algospot\부분합\크리스마스 인형.cpp" />
     <ClCompile Include="Algospot\비트마스크\비트마스크 응용.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
