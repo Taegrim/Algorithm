@@ -127,11 +127,19 @@
     <ClInclude Include="timer.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Algospot\부분합\크리스마스 인형.cpp" />
+    <ClCompile Include="Algospot\부분합\크리스마스 인형.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Algospot\비트마스크\비트마스크 응용.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Algospot\비트마스크\졸업 학기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Algospot\스택\울타리 잘라내기 스위핑.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Algospot\스택\짝이 맞지 않는 괄호.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Algospot\이분탐색\DARPA.cpp">
@@ -786,6 +794,7 @@
     <ClCompile Include="Algospot\DP\k번째 답\모스부호사전.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Algospot\스택\외계 신호 분석.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
